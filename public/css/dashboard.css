@@ -1,0 +1,101 @@
+/* public/css/dashboard.css */
+:root {
+    --primary-blue: #2563eb; /* Azul do botão "Agendar Consulta" */
+    --secondary-blue: #eff6ff; /* Fundo azul bem claro */
+    --text-dark: #1e293b;
+    --text-gray: #64748b;
+    --border-color: #e2e8f0;
+    --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+body {
+    background-color: #f8fafc; /* Fundo geral cinza quase branco */
+    font-family: 'Inter', sans-serif; /* Fonte moderna sugerida */
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: white;
+    border-right: 1px solid var(--border-color);
+}
+
+.nav-item {
+    color: var(--text-gray);
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.nav-item:hover, .nav-item.active {
+    background-color: var(--secondary-blue);
+    color: var(--primary-blue);
+    border-right: 3px solid var(--primary-blue); /* Detalhe ativo */
+}
+
+/* Cards */
+.card-modern {
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.card-modern:hover {
+    transform: translateY(-2px);
+}
+
+.card-header-modern {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+/* Botões */
+.btn-primary-modern {
+    background-color: var(--primary-blue);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+    transition: background-color 0.2s;
+}
+
+.btn-primary-modern:hover {
+    background-color: #1d4ed8;
+}
+
+/* Tabelas */
+.table-modern thead th {
+    background-color: #f8fafc;
+    color: var(--text-gray);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.table-modern tbody td {
+    padding: 1rem;
+    color: var(--text-dark);
+    vertical-align: middle;
+}
+
+.table-row-modern:hover {
+    background-color: #f8fafc;
+}
+
+/* Status Badges */
+.badge-telemedicina {
+    background-color: #f3e8ff;
+    color: #9333ea;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}

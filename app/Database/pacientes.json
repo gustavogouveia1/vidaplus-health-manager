@@ -1,0 +1,100 @@
+{
+    "pacientes": [
+        {
+            "id": 1,
+            "nome": "Jo\u00e3o da Silva",
+            "cpf": "111.222.333-44",
+            "senha": "teste",
+            "data_nascimento": "1985-05-20",
+            "telefone": "(11) 99999-8888",
+            "email": "joao.silva@email.com",
+            "endereco": {
+                "rua": "Rua das Flores, 123",
+                "bairro": "Centro",
+                "cidade": "S\u00e3o Paulo",
+                "estado": "SP",
+                "cep": "01001-000"
+            },
+            "prontuario": {
+                "numero": "2023001",
+                "historico": [
+                    {
+                        "data": "2023-01-10",
+                        "descricao": "Consulta de rotina. Press\u00e3o normal."
+                    },
+                    {
+                        "data": "2023-06-15",
+                        "descricao": "Queixa de dor de cabe\u00e7a. Receitado analg\u00e9sico."
+                    }
+                ],
+                "alergias": [
+                    "Dipirona",
+                    "Sulfa"
+                ],
+                "tipo_sanguineo": "O+"
+            }
+        },
+        {
+            "id": 2,
+            "nome": "Maria Oliveira",
+            "cpf": "222.333.444-55",
+            "senha": "teste",
+            "data_nascimento": "1990-11-15",
+            "telefone": "(21) 98888-7777",
+            "email": "maria.oliveira@email.com",
+            "endereco": {
+                "rua": "Av. Atl\u00e2ntica, 500",
+                "bairro": "Copacabana",
+                "cidade": "Rio de Janeiro",
+                "estado": "RJ",
+                "cep": "22000-000"
+            },
+            "prontuario": {
+                "numero": "2023002",
+                "historico": [],
+                "alergias": [],
+                "tipo_sanguineo": "A+"
+            }
+        },
+        {
+            "id": 3,
+            "nome": "Carlos Souza",
+            "cpf": "333.444.555-66",
+            "senha": "teste",
+            "data_nascimento": "1978-03-30",
+            "telefone": "(31) 97777-6666",
+            "email": "carlos.souza@email.com",
+            "endereco": {
+                "rua": "Rua da Bahia, 1000",
+                "bairro": "Lurdes",
+                "cidade": "Belo Horizonte",
+                "estado": "MG",
+                "cep": "30000-000"
+            },
+            "prontuario": {
+                "numero": "2023003",
+                "historico": [
+                    {
+                        "data": "2024-02-20",
+                        "descricao": "Exame admissional."
+                    }
+                ],
+                "alergias": [
+                    "Lactose"
+                ],
+                "tipo_sanguineo": "AB-"
+            }
+        },
+        {
+            "id": 4,
+            "nome": "Marco Fonseca",
+            "cpf": "11111111111",
+            "senha": "123",
+            "email": "markfonsa@gmail.com",
+            "telefone": "21980001111",
+            "prontuario": {
+                "numero": "20254"
+            }
+        }
+    ]
+}
